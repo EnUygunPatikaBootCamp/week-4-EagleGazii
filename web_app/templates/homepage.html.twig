@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Photos
+{% endblock %}
+
+{% block body %}
+    <a href="{{ path("home_page") }}">Get Random Jokes</a>
+    <p>Request created at: {{ today }}</p>
+    {% for joke in jokes %}
+        <div class = "msg-all-cont">
+            <ul class = "reset-c">
+                <li id = "i-s-" class = "t-h">
+                    <div id = "icon-h" class = "reset-c">
+                        <i class = "fas fa-user fa-user-s"></i>
+                    </div>
+                </li>
+                <li id = "-is-" class = "t-h">
+                    <div id = "msg-h" class = "reset-c">
+                        <p id = "msg-head" class = "reset-c">{{ joke.title }}</p>
+                        <p id = "msg-txt" class = "reset-c"><b>{{ joke.body }}</b></p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    {% endfor %}
+{% endblock %}
+
+

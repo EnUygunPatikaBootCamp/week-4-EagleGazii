@@ -1,0 +1,79 @@
+.reset-c {
+    padding: 0px;
+    margin: 0px;
+}
+.msg-all-cont {
+    list-style: none;
+    padding: 5px;
+    background: #39C7D4;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 700px;
+
+}
+ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.t-h {
+    display: inline-flex;
+    margin: 0px 5px;
+}
+
+#i-s- {
+    margin: 0px 2.5%;
+}
+.fa-user-s {
+    font-size: 35px;
+    color: white;
+}
+
+#-is- {
+    width: calc(100%);
+}
+
+#msg-txt, #msg-head {
+    font-size: 18px;
+    font-family: Monospace;
+    /*
+      More/Extended Monospace:
+      "Lucida Console", Monaco, Monospace
+      "Courier New", Courier, Monospace
+    */
+}
+#msg-head {
+    color: #123962;
+}
+#msg-txt {
+    color: #FFFFFF;
+}
+
+#other-h {
+    display: inline-flex;
+    align-items: center;
+}
+
+.mb {
+    font-size: 30px;
+    margin: 0px 7.5px;
+}
+.fa-heart-s {
+    color: #DDDDDD;
+    transition: 0.5s;
+}
+.fa-star-s {
+    color: #DDDDDD;
+    transition: 0.5s;
+}
+.fa-ellipsis-v-s {
+    color: #123962;
+}
+
+.fa-heart-s:hover {
+    color: rgb(225, 5, 5);
+}
+.fa-star-s:hover {
+    color: rgb(265, 150, 0);
+}
